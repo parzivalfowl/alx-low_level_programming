@@ -1,2 +1,2 @@
 #!/bin/bash
-./ {$CFILE} > c
+./ 0-main.c > c
