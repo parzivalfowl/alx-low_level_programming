@@ -1,10 +1,12 @@
 #include <stdio.h>
-#include <string.h>
-
-int main () {
-   char str1[15]= "\"Programming is like building a multilingual puzzle";
-   
-   puts(str1);
-   
-   return(0);
+/**
+ * main-prints a string
+ *
+ * Return: returns a value of 0 if successful
+ */
+int main(void)
+{
+char str[] = "\"Programming is like building a multilingual puzzle";
+puts(str);
+return (0);
 }
