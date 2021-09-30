@@ -1,3 +1,9 @@
+#include <stdio.h>
+/**
+ *main-function using sizeof unary operator to print data type sizes
+ *
+ *Return: returns value of 0
+ */
 int main(void)
 {
 printf("Size of a char: %d byte(s)\n", sizeof(char));
