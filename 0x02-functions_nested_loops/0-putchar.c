@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char *c = "Holberton";
+	char *c = "_putchar";
 
 	int i;
 
