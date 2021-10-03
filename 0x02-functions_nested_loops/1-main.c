@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "1-alphabet.c"
 
 /**
  * main - check for the code for ALX students
