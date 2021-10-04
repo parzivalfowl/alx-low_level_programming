@@ -1,11 +1,15 @@
 #include "main.h"
 /**
- * mul -returns the product of its parameters
- * @a: int type number
- * @b: int type number
- * Return: 0
+ * print_numbers - prints 0 to 9
+ * Description: You can only use _putchar twice
 */
-int mul(int a, int b)
+void print_numbers(void)
 {
-	return (a * b);
+	int x;
+
+	for (x = 0; x < 10; x++)
+	{
+		_putchar(x + '0');
+	}
+	_putchar('\n');
 }
